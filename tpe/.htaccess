@@ -20,9 +20,9 @@ RewriteRule ^sitemap.xml /pages/sitemap.php [L]
 #Robots
 RewriteRule ^robots.txt /pages/robots.php [L]
 
-#Special Files
-RewriteRule ^assets/js/41efd3be2f3541a23881a788a69e4ab1.js /assets/js/login.php
-RewriteRule ^secure/ad7fec827b5f12540b9b2f7cab309e81.php /pages/system/auth_educhorus.php
+#Landing
+RewriteRule ^under-construction$ landing/under_construction.html [L]
+
 #Pages
 RewriteRule ^home$ pages/home.php [L]
 
