@@ -25,7 +25,7 @@ RewriteRule ^under-construction$ landing/under_construction.html [L]
 
 #Pages
 RewriteRule ^home$ pages/home.php [L]
-
+RewriteRule ^login$ pages/login.php [L]
 
 
 
