@@ -18,7 +18,7 @@
 <div class="login-logo">
     <a href="/tpe/home"><img src="/tpe/images/logo.png" alt=""/></a>
 </div>
-<h2 class="form-heading">login</h2>
+<h2 class="form-heading">Se connecter </h2>
 <div class="app-cam">
     <form>
         <input type="text" class="text" value="Adresse mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Adresse mail';}">
