@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: SIMON
@@ -20,9 +21,23 @@
 </div>
 <h2 class="form-heading">Se connecter </h2>
 <div class="app-cam">
-    <form>
-        <input type="text" class="text" value="Adresse mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Adresse mail';}">
-        <input type="password" value="Mot de passe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mot de passe';}">
+    <!--<div class="alert alert-warning">
+        <?php
+        //var_dump($_SESSION['user_infos']);
+        ?>
+    </div>-->
+    <form action="system/authentication.php" method="POST">
+        <?php
+        if(!empty($_SESSION['login_error'])) { ?>
+            <div class="alert alert-danger">
+                <?php
+                //var_dump($_SESSION['login_error'])
+                ?>
+                <?= implode('<br/>', $_SESSION['login_error']) ?></div>
+        <?php }
+        ?>
+        <input type="text" class="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Niom d\'utilisateur';}" name="username">
+        <input type="password" value="Mot de passe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mot de passe';}" name="password">
         <div class="submit"><input type="submit" onclick="myFunction()" value="Se connecter"></div>
         <div class="login-social-link">
             <a href="index.html" class="facebook">
@@ -57,4 +72,6 @@
 </script>
 </body>
 </html>
-
+<?php
+unset($_SESSION['login_error']);
+?>

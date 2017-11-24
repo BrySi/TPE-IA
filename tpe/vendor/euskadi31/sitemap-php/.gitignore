@@ -1,5 +1,0 @@
-bin/
-vendor/
-build/
-composer.phar
-composer.lock
