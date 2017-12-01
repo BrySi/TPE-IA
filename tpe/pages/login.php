@@ -39,14 +39,6 @@ session_start();
         <input type="text" class="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Niom d\'utilisateur';}" name="username">
         <input type="password" value="Mot de passe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mot de passe';}" name="password">
         <div class="submit"><input type="submit" onclick="myFunction()" value="Se connecter"></div>
-        <div class="login-social-link">
-            <a href="index.html" class="facebook">
-                Connexion Facebook
-            </a>
-            <a href="index.html" class="twitter">
-                Connexion Twitter
-            </a>
-        </div>
         <ul class="new">
             <li class="new_left"><p><a href="#">Mot de passe oublié ?</a></p></li>
             <li class="new_right"><p class="sign">Première fois ici ? <a href="register.html"> Inscription</a></p></li>
