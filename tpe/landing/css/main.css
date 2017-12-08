@@ -869,6 +869,6 @@ a {
 }
 
 #hidden-easter {
-    color: #FFFFFF;
-    text-underline: none;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
 }
