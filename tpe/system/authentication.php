@@ -14,7 +14,7 @@ $form_data = $_POST;
 //print_r($form_data);
 $error = [];
 if (!empty($_POST)) {
-    if(!empty($form_data['username']) && (!empty($form_data['password']))) {
+    if(!empty(htmlentities($form_data['username'])) && (!empty($form_data['password']))) {
         $password = hash('sha256', $form_data['password']);
         // Check if user exists
         $user_exists = $db->query(

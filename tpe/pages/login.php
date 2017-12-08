@@ -36,7 +36,7 @@ session_start();
                 <?= implode('<br/>', $_SESSION['login_error']) ?></div>
         <?php }
         ?>
-        <input type="text" class="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Niom d\'utilisateur';}" name="username">
+        <input type="text" class="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d\'utilisateur';}" name="username">
         <input type="password" value="Mot de passe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mot de passe';}" name="password">
         <div class="submit"><input type="submit" onclick="myFunction()" value="Se connecter"></div>
         <ul class="new">
