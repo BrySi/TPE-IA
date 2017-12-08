@@ -867,3 +867,8 @@ footer p a:hover {
 a {
     color: #000000 !important;
 }
+
+#hidden-easter {
+    color: #FFFFFF;
+    text-underline: none;
+}
