@@ -7,6 +7,7 @@ session_start();
  * Time: 09:45
  */
 include "../includes/security.php";
+include "../includes/functions.php";
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -24,7 +25,7 @@ include "../includes/security.php";
     <div id="page-wrapper">
         <div class="graphs">
             <div class="grid_3 grid_4">
-                <h3>Headings</h3>
+                <h3><?= get_lang('HOME__SECTION_HEADING') ?></h3>
                 <div class="bs-example">
                     <table class="table">
                         <tbody>
