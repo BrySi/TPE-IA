@@ -862,3 +862,8 @@ footer p a {
 footer p a:hover {
   color: #fff;
 }
+
+/* CUSTOM CSS BY BRYSI */
+a {
+    color: #000000 !important;
+}
