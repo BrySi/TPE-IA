@@ -1,29 +1,32 @@
+<?php
+include "../includes/functions.php";
+?>
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" >
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>TPE IA </title>
-        <meta name="author" content="FABBRO">
-        <meta name="description" content="Page de maintenance du TPE">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TPE IA </title>
+    <meta name="author" content="FABBRO">
+    <meta name="description" content="Page de maintenance du TPE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- Fonts -->
-        <!-- Lato -->
-        <link href="http://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Fonts -->
+    <!-- Lato -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-        <!-- CSS -->
+    <!-- CSS -->
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/main.css">
-        <!-- Responsive Stylesheet -->
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
 
 <body id="body">
 
@@ -44,9 +47,10 @@ Header start
         <div class="row">
             <div class="col-md-6">
                 <div class="content-block">
-                    <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">TPE IA</h1>
-                    <p class="wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">Nous construisons un programme capable de vous assister dans votre quotidien. Revenez dans un petit instant pour découvrir cela. Plus d'infos sur
-                        <a href="https://github.com/BrySi/TPE-IA/commits/master" target="_blank"><i class="fa fa-github"></i> GitHub</a></p>
+                    <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;"><?= get_lang('LANDING__HEADING') ?></h1>
+                    <p class="wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                        <?= get_lang('LANDING__CONTENT') ?>
+                    </p>
                     <div class="wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
 
                     </div>
