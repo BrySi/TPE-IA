@@ -6,12 +6,13 @@ session_start();
  * Date: 17/11/2017
  * Time: 20:25
  */
+include '../includes/functions.php';
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
     <?php
-    $title = "Connexion";
+    $title = get_lang('LOGIN__TITLE');
     include '../includes/head.php';
     ?>
 </head>
@@ -19,7 +20,7 @@ session_start();
 <div class="login-logo">
     <a href="/tpe/home"><img src="/tpe/images/logo.png" alt=""/></a>
 </div>
-<h2 class="form-heading">Se connecter </h2>
+<h2 class="form-heading"><?= get_lang('LOGIN__HEADING') ?></h2>
 <div class="app-cam">
     <!--<div class="alert alert-warning">
         <?php
@@ -36,18 +37,18 @@ session_start();
                 <?= implode('<br/>', $_SESSION['login_error']) ?></div>
         <?php }
         ?>
-        <input type="text" class="text" value="Nom d'utilisateur" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nom d\'utilisateur';}" name="username">
-        <input type="password" value="Mot de passe" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mot de passe';}" name="password">
-        <div class="submit"><input type="submit" onclick="myFunction()" value="Se connecter"></div>
+        <input type="text" class="text" value="<?= get_lang('LOGIN__FORM_USERNAME') ?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '<?= get_lang('LOGIN__FORM_USERNAME') ?>';}" name="username">
+        <input type="password" value="<?= get_lang('LOGIN__FORM_PASSWORD') ?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '<?= get_lang('LOGIN__FORM_PASSWORD') ?>';}" name="password">
+        <div class="submit"><input type="submit" onclick="myFunction()" value="<?= get_lang('LOGIN__FORM_SUBMIT') ?>"></div>
         <ul class="new">
-            <li class="new_left"><p><a href="#">Mot de passe oublié ?</a></p></li>
-            <li class="new_right"><p class="sign">Première fois ici ? <a href="register.html"> Inscription</a></p></li>
+            <li class="new_left"><p><?= get_lang('LOGIN__PASSWORD_FORGOTTEN') ?></p></li>
+            <li class="new_right"><p class="sign"><?= get_lang('LOGIN__REGISTER') ?></p></li>
             <div class="clearfix"></div>
         </ul>
     </form>
 </div>
 <div class="copy_layout login">
-    <p>Copyright &copy; <?= date('Y') ?> Bryan SIMON & Thomas FABBRO. Tous droits réservés</p>
+    <p><?= str_replace('YEAR', date('Y'), get_lang('LOGIN__FOOTER')) ?></p>
 </div>
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 <script>

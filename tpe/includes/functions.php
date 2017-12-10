@@ -7,9 +7,9 @@
  */
 function get_lang($key) {
     if($_COOKIE['lang'] == 'en') {
-        $lang_file = json_decode(file_get_contents('../data/lang/en.json'));
+        $lang_file = json_decode(file_get_contents('/home/brysflgp/tpe.brysi.xyz/tpe/data/lang/en.json'));
     } else { // Par défaut on va chercher le fichier français
-        $lang_file = json_decode(file_get_contents('../data/lang/fr.json'));
+        $lang_file = json_decode(file_get_contents('/home/brysflgp/tpe.brysi.xyz/tpe/data/lang/fr.json'));
     }
 
     if(array_key_exists($key, $lang_file)) {

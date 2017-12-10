@@ -7,6 +7,14 @@
   "LANDING__SECTION_BUILDING_MINUTES": "Minutes",
   "LANDING__SECTION_BUILDING_SECONDS": "Secondes",
   "LANDING__FOOTER": "<p>Copyright © YEAR <a class=\"color-white\" href=\"https://brysi.xyz\" target=\"_blank\">BrySi_</a> et <a href=\"https://brysi.xyz/lab/peppa\" target=\"_blank\" onclick=\"window.open('https://brysi.xyz/lab/peppa','popup','width=600,height=600'); return false;\" id=\"hidden-easter\">Fabbro</a> | Tous droits réservés.</p>",
+  "LOGIN__TITLE": "Connexion",
+  "LOGIN__HEADING": "Se connecter",
+  "LOGIN__FORM_USERNAME": "Nom d&#145;utilisateur",
+  "LOGIN__FORM_PASSWORD": "Mot de passe",
+  "LOGIN__FORM_SUBMIT": "Connexion",
+  "LOGIN__PASSWORD_FORGOTTEN": "Mot de passe oublié ?",
+  "LOGIN__REGISTER": "Première fois ici ? <a href=\"register.html\"> Inscription</a>",
+  "LOGIN__FOOTER": "Copyright &copy; YEAR Bryan SIMON & Thomas FABBRO. Tous droits réservés",
   "HOME__SECTION_HEADING": "Bienvenue sur le projet de TPE du \"FABBRO\" et de \"BrySi\"",
   "HOME__SECTION_CONTENT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras odio nisl, scelerisque ac nisl quis, efficitur pharetra libero. Duis auctor nibh ac neque semper, id porta arcu finibus. Vestibulum orci odio, mollis ut diam eu, consectetur blandit ligula. Aliquam in eros condimentum lacus tincidunt molestie eget porttitor odio. Aenean posuere lorem eu elit lobortis sodales. Praesent quam dolor, gravida nec dignissim vitae, lobortis ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas molestie tincidunt gravida. Nam feugiat eros in est gravida, vel luctus nisi gravida. Fusce ut nisl ac sapien sollicitudin varius. Nam nec porttitor enim. In nec felis sed velit vestibulum efficitur vel ac ipsum."
 }
