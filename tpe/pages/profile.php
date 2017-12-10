@@ -120,6 +120,24 @@ $last_connection = $date_last_connection->format('d/m/Y');
                                             <td id="editTwitter"><a onclick="editTwitter()"><?= get_lang('PROFILE__EDIT') ?></a></td>
                                             <td id="validateTwitter" style="display: none;"><a onclick="validateTwitter()"><?= get_lang('PROFILE__VALIDATE') ?></a></td>
                                         </tr>
+                                        <tr>
+                                            <td><?= get_lang('PROFILE__LANG') ?></td>
+                                            <td>:</td>
+                                            <td>
+                                                <?php
+                                                switch ($_COOKIE['lang']) {
+                                                    case 'en':
+                                                        echo 'English';
+                                                        break;
+                                                    case 'fr':
+                                                        echo 'French';
+                                                        break;
+                                                }
+                                                ?>
+                                                <br>
+                                                <?= get_lang('PROFILE__SWITCH_LANG') ?>
+                                            </td>
+                                        </tr>
                                         </tbody>
                                     </table>
                                 </div>
