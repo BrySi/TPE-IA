@@ -1,6 +1,12 @@
 {
-  "LANDING__HEADING" : "TPE IA",
+  "LANDING__HEADING": "TPE IA",
   "LANDING__CONTENT": "Nous construisons un programme capable de vous assister dans votre quotidien. Revenez dans un petit instant pour découvrir cela. Plus d'infos sur <a href=\"https://github.com/BrySi/TPE-IA/commits/master\" target=\"_blank\"><i class=\"fa fa-github\"></i> GitHub</a>",
+  "LANDING__SECTION_BUILDING_HEADING": "Construction en cours",
+  "LANDING__SECTION_BUILDING_DAYS": "Jours",
+  "LANDING__SECTION_BUILDING_HOURS": "Heures",
+  "LANDING__SECTION_BUILDING_MINUTES": "Minutes",
+  "LANDING__SECTION_BUILDING_SECONDS": "Secondes",
+  "LANDING__FOOTER": "<p>Copyright © YEAR <a class=\"color-white\" href=\"https://brysi.xyz\" target=\"_blank\">BrySi_</a> et <a href=\"https://brysi.xyz/lab/peppa\" target=\"_blank\" onclick=\"window.open('https://brysi.xyz/lab/peppa','popup','width=600,height=600'); return false;\" id=\"hidden-easter\">Fabbro</a> | Tous droits réservés.</p>",
   "HOME__SECTION_HEADING": "Bienvenue sur le projet de TPE du \"FABBRO\" et de \"BrySi\"",
   "HOME__SECTION_CONTENT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras odio nisl, scelerisque ac nisl quis, efficitur pharetra libero. Duis auctor nibh ac neque semper, id porta arcu finibus. Vestibulum orci odio, mollis ut diam eu, consectetur blandit ligula. Aliquam in eros condimentum lacus tincidunt molestie eget porttitor odio. Aenean posuere lorem eu elit lobortis sodales. Praesent quam dolor, gravida nec dignissim vitae, lobortis ac felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas molestie tincidunt gravida. Nam feugiat eros in est gravida, vel luctus nisi gravida. Fusce ut nisl ac sapien sollicitudin varius. Nam nec porttitor enim. In nec felis sed velit vestibulum efficitur vel ac ipsum."
 }

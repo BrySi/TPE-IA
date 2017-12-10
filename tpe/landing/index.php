@@ -59,35 +59,35 @@ Header start
             <div class="col-md-6 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
                 <div class="block">
                     <div class="counter">
-                        <h2>Construction en cours</h2>
+                        <h2><?= get_lang('LANDING__SECTION_BUILDING_HEADING') ?></h2>
                         <ul id="countdown_dashboard">
                             <li>
                                 <div class="dash days_dash">
                                     <div class="digit">0</div>
                                     <div class="digit">0</div>
                                     <div class="digit">0</div>
-                                    <span class="dash_title">Jours</span>
+                                    <span class="dash_title"><?= get_lang('LANDING__SECTION_BUILDING_DAYS') ?></span>
                                 </div>
                             </li>
                             <li>
                                 <div class="dash hours_dash">
                                     <div class="digit">0</div>
                                     <div class="digit">0</div>
-                                    <span class="dash_title">Heures</span>
+                                    <span class="dash_title"><?= get_lang('LANDING__SECTION_BUILDING_HOURS') ?></span>
                                 </div>
                             </li>
                             <li>
                                 <div class="dash minutes_dash">
                                     <div class="digit">0</div>
                                     <div class="digit">0</div>
-                                    <span class="dash_title">Minutes</span>
+                                    <span class="dash_title"><?= get_lang('LANDING__SECTION_BUILDING_MINUTES') ?></span>
                                 </div>
                             </li>
                             <li>
                                 <div class="dash seconds_dash">
                                     <div class="digit">0</div>
                                     <div class="digit">0</div>
-                                    <span class="dash_title">Secondes</span>
+                                    <span class="dash_title"><?= get_lang('LANDING__SECTION_BUILDING_SECONDS') ?></span>
                                 </div>
                             </li>
                         </ul>
@@ -130,8 +130,7 @@ Contact start
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <p>Copyright © <a class="color-white" href="https://brysi.xyz" target="_blank">BrySi_</a>| Tous droits réservés.</p>
-                    <p>et <a href="https://brysi.xyz/lab/peppa" target="_blank" onclick="window.open('https://brysi.xyz/lab/peppa','popup','width=600,height=600'); return false;" id="hidden-easter">Fabbro</a></p>
+                    <?= str_replace('YEAR', date('Y'), get_lang('LANDING__FOOTER')) ?>
                 </div>
             </div>
         </div>
