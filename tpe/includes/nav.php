@@ -33,7 +33,7 @@ include_once "functions.php";
                 <li class="dropdown-menu-header text-center">
                     <strong>Settings</strong>
                 </li>
-                <li class="m_2"><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                <li class="m_2"><a href="/tpe/profile"><i class="fa fa-user"></i> <?= get_lang('NAV__DROPDOWN_PROFILE') ?></a></li>
                 <li class="m_2"><a href="#"><i class="fa fa-wrench"></i> Settings</a></li>
                 <li class="m_2"><a href="#"><i class="fa fa-usd"></i> Payments <span class="label label-default">42</span></a></li>
                 <li class="m_2"><a href="#"><i class="fa fa-file"></i> Projects <span class="label label-primary">42</span></a></li>
