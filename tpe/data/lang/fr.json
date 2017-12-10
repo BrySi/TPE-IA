@@ -38,5 +38,8 @@
   "PROFILE__MODAL_TITLE": "Envoyer une photo",
   "PROFILE__MODAL_IMPORT_PICTURE": "Importer une photo",
   "PROFILE__MODAL_CLOSE": "Fermer",
-  "PROFILE__MODAL_SUBMIT": "Sauvegarder"
+  "PROFILE__MODAL_SUBMIT": "Sauvegarder",
+  "PROFILE__FLASH_ERROR_EXTENSION": "Extension interdite, merci d'utiliser un fichier JPEG, GIF ou PNG.",
+  "PROFILE__FLASH_UPLOAD_ERROR": "Erreur lors de l'envoi de l'image",
+  "PROFILE__FLASH__SUCCESS_UPDATE": "Photo de profil mise à jour !"
 }

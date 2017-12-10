@@ -55,7 +55,7 @@ $last_connection = $date_last_connection->format('d/m/Y');
                             if(!empty($_SESSION['success'])) {
                                 ?>
                                 <div class="alert alert-success">
-                                    Photo de profil mise à jour !
+                                    <?= get_lang('PROFILE__FLASH__SUCCESS_UPDATE') ?>
                                 </div>
                                 <?php
                             } if(!empty($_SESSION['error'])) {
@@ -141,7 +141,7 @@ $last_connection = $date_last_connection->format('d/m/Y');
 
             <div class="modal fade" id="uploadPhoto" tabindex="-1" role="dialog" aria-labelledby="uploadPhotoLabel" aria-hidden="true" style="display: none;">
                 <div class="modal-dialog">
-                    <form action="/admin/pages/system/upload_photo.php" enctype="multipart/form-data" method="POST">
+                    <form action="/tpe/system/upload_photo.php" enctype="multipart/form-data" method="POST">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -150,7 +150,7 @@ $last_connection = $date_last_connection->format('d/m/Y');
                             <div class="modal-body">
                                 <div class="form-group">
                                     <label for="img_file"><?= get_lang('PROFILE__MODAL_IMPORT_PICTURE') ?></label>
-                                    <input type="file" name="img_file" id="img_file">
+                                    <input type="file" accept=".gif,.png,.jpeg,.jpg" name="img_file" id="img_file">
                                 </div>
                             </div>
                             <div class="modal-footer">
