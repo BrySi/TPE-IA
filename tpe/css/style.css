@@ -2696,3 +2696,8 @@ span.btn_7{
   font-size: 64%;
 }
 }
+/* CUSTOM CODE BY BRYSI */
+.profile-text table tbody tr td:nth-child(2) {
+  padding-left: 4em !important;
+  padding-right: 4em !important;
+}
