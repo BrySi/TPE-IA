@@ -871,5 +871,9 @@ a {
 #hidden-easter {
     color: #FFFFFF !important;
     text-decoration: none !important;
-    cursor:initial !important;
+    cursor: text !important;
+}
+
+.color-white {
+    color: #FFF !important;
 }
