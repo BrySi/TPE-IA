@@ -6,6 +6,7 @@ session_start();
  * Date: 18/11/2017
  * Time: 12:33
  */
+include "../includes/functions.php";
 require_once "../includes/database.php";
 $db = new \db\database();
 
@@ -40,19 +41,19 @@ if (!empty($_POST)) {
                 $success = true;
                 header('Location: /tpe/profile');
             } else {
-                $error['invalid_password'] = 'Mot de passe erroné';
+                $error['invalid_password'] = get_lang('AUTH__FLASH__WRONG_PASSWORD');
                 header('Location: /tpe/login');
             }
         } else {
-            $error['user_not_exists'] = 'L\'utilisateur demandé n\'existe pas !';
+            $error['user_not_exists'] = get_lang('AUTH__FLASH__DOES_NOT_EXIST');
             header('Location: /tpe/login');
         }
     } else {
-        $error['not_full'] = 'Formulaire non complet';
+        $error['not_full'] = get_lang('AUTH__FLASH__FILL_FORM');
         header('Location: /tpe/login');
     }
 } else {
-    $error['wrong_method'] = 'Méthode non accordée';
+    $error['wrong_method'] = get_lang('AUTH__FLASH__UNAUTHORIZED_METHOD');
     header('Location: /tpe/login');
 }
 $_SESSION['login_error'] = $error;
