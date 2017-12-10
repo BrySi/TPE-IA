@@ -175,3 +175,5 @@ include "../includes/scripts.php";
 ?>
 </body>
 </html>
+<?php
+unset($_SESSION['success']);
