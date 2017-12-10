@@ -21,7 +21,7 @@ include_once "functions.php";
     <!-- /.navbar-header -->
     <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle avatar" data-toggle="dropdown"><img src="images/1.png"><span class="badge">9</span></a>
+            <a href="#" class="dropdown-toggle avatar" data-toggle="dropdown"><img src="<?= $_SESSION['user_infos']['profile_pic'] ?>"><span class="badge">9</span></a>
             <ul class="dropdown-menu">
                 <li class="dropdown-menu-header text-center">
                     <strong>Account</strong>
