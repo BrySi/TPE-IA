@@ -5,6 +5,7 @@
  * Date: 17/11/2017
  * Time: 08:31
  */
+include_once "functions.php";
 ?>
 <!-- Navigation -->
 <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -15,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/tpe/home">TPE IA</a>
+        <a class="navbar-brand" href="/tpe/home"><?= get_lang('NAV__HEADING') ?></a>
     </div>
     <!-- /.navbar-header -->
     <ul class="nav navbar-nav navbar-right">
@@ -46,7 +47,7 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li>
-                    <a href="/tpe/home"><i class="fa fa-dashboard fa-fw nav_icon"></i>Dashboard</a>
+                    <a href="/tpe/home"><i class="fa fa-dashboard fa-fw nav_icon"></i><?= get_lang('NAV__LINKS_DASHBOARD') ?></a>
                 </li>
             </ul>
         </div>
