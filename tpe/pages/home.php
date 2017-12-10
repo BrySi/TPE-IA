@@ -13,7 +13,7 @@ include "../includes/functions.php";
 <html>
 <head>
     <?php
-    $title = 'Home';
+    $title = get_lang('HOME__TITLE');
     include "../includes/head.php";
     ?>
 </head>
