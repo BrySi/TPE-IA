@@ -14,11 +14,12 @@ $form_data = $_POST;
 //print_r($form_data);
 $error = [];
 if (!empty($_POST)) {
-    if(!empty(htmlentities($form_data['username'])) && (!empty($form_data['password']))) {
+    if(!empty($form_data['username']) && (!empty($form_data['password']))) {
+//        echo htmlentities($form_data['username'], ENT_QUOTES, "UTF-8");
         $password = hash('sha256', $form_data['password']);
         // Check if user exists
         $user_exists = $db->query(
-            'SELECT * FROM users WHERE users.username = \''. $form_data['username'] . '\''
+            'SELECT * FROM users WHERE users.username = \''. htmlspecialchars($form_data['username'], ENT_HTML5 | ENT_QUOTES) . '\''
         );
         if(!empty($user_exists[0])) {
             // Check mdp
