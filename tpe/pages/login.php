@@ -49,6 +49,7 @@ include '../includes/functions.php';
 </div>
 <div class="copy_layout login">
     <p><?= str_replace('YEAR', date('Y'), get_lang('LOGIN__FOOTER')) ?></p>
+    <?= get_lang('AUTH__SWITCH_LANG') ?>
 </div>
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 <script>
