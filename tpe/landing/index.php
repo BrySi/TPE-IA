@@ -132,6 +132,7 @@ Contact start
             <div class="col-md-12">
                 <div class="block">
                     <?= str_replace('YEAR', date('Y'), get_lang('LANDING__FOOTER')) ?>
+                    <?= get_lang('LANDING__SWITCH_LANG') ?>
                 </div>
             </div>
         </div>
