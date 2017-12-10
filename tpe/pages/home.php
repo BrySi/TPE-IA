@@ -6,6 +6,7 @@ session_start();
  * Date: 10/11/2017
  * Time: 09:45
  */
+$required_rank = 1;
 include "../includes/security.php";
 include "../includes/functions.php";
 ?>

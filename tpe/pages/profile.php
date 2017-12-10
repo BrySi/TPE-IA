@@ -6,6 +6,7 @@ session_start();
  * Date: 10/12/2017
  * Time: 17:10
  */
+$required_rank = 1;
 include "../includes/security.php";
 include "../includes/functions.php";
 require_once '../includes/database.php';
