@@ -14,7 +14,7 @@ include "../includes/functions.php";
     <html>
     <head>
         <?php
-        $title = get_lang('PROFILE__TITLE');
+        $title = get_lang('SPEECH__TITLE');
         include "../includes/head.php";
         ?>
     </head>
