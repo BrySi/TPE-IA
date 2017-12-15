@@ -21,7 +21,7 @@ switch($infos[0]->rank) {
         $rank = 'Admin';
         break;
     case 3:
-        $rank = 'Super Admin';
+        $rank = 'Root';
         break;
 }
 
