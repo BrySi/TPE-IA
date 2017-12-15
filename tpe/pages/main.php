@@ -5,7 +5,7 @@
  * Date: 15/12/2017
  * Time: 09:36
  */
-session_start():
+session_start();
 $required_rank = 1;
 include "../includes/security.php";
 include "../includes/functions.php";
