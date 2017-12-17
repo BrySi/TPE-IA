@@ -45,5 +45,6 @@
   "PROFILE__MODAL_SUBMIT": "Save",
   "PROFILE__FLASH_ERROR_EXTENSION": "Extension forbidden, please use JPEG, GIF or PNG.",
   "PROFILE__FLASH_UPLOAD_ERROR": "An error occured while uploading image file",
-  "PROFILE__FLASH__SUCCESS_UPDATE": "Successfully updated profile picture !"
+  "PROFILE__FLASH__SUCCESS_UPDATE": "Successfully updated profile picture !",
+  "AUDIO__UPLOAD_ERROR" : "An error occured while uploading the file"
 }
