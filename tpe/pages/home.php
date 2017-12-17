@@ -26,6 +26,13 @@ include "../includes/functions.php";
     <div id="page-wrapper">
         <div class="graphs">
             <div class="grid_3 grid_4">
+                <?php
+                if(!empty($_SESSION['security_errors'])) { ?>
+                    <div class="alert alert-danger">
+                        <?= implode('<br>', $_SESSION['security_errors']); ?>
+                    </div>
+                <?php }
+                ?>
                 <h3><?= get_lang('HOME__SECTION_HEADING') ?></h3>
                 <div class="bs-example">
                     <?= get_lang('HOME__SECTION_CONTENT') ?>

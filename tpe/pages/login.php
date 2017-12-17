@@ -34,7 +34,9 @@ include '../includes/functions.php';
                 <?php
                 //var_dump($_SESSION['login_error'])
                 ?>
-                <?= implode('<br/>', $_SESSION['login_error']) ?></div>
+                <?= implode('<br/>', $_SESSION['login_error']) ?>
+                <?= implode('<br/>', $_SESSION['security_errors']) ?>
+            </div>
         <?php }
         ?>
         <input type="text" class="text" value="<?= get_lang('LOGIN__FORM_USERNAME') ?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '<?= get_lang('LOGIN__FORM_USERNAME') ?>';}" name="username">
@@ -68,4 +70,5 @@ include '../includes/functions.php';
 </html>
 <?php
 unset($_SESSION['login_error']);
+unset($_SESSION['security_errors']);
 ?>

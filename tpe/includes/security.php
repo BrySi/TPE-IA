@@ -12,6 +12,7 @@ IL CONSISTE A VERIFIER SI L'UTILISATEUR EST CONNECTE OU NON.
 IL VERIFIE EGALEMENT SI L'UTILISATEUR A LA PERMISSION D'ACCEDER A LA PAGE
 */
 require_once 'database.php';
+include_once 'functions.php';
 $db = new \db\database();
 $security_errors = [];
 $ip = $_SERVER['REMOTE_ADDR'];
@@ -26,15 +27,16 @@ if(!empty($_SESSION['user_infos']['username'])) {
         if($query_check_ip[0]->rank >= $required_rank) {
             $display_page = true;// On affiche la page
         } else {
-            $security_errors['need_rank'] = 'Vous n\'avez pas un niveau d\'accréditation assez élevé pour accéder à cette page.';
+            $security_errors['need_rank'] = get_lang('SECURITY__UNAUTHORIZED_ACCESS');
             header('Location: /tpe/home');
         }
     } else {
-        $security_errors['security_alert'] = 'Par souci de sécurité nous vous avons déconnecté, merci de vous reconnecter';
-        header('Location: /tpe/home');
+        unset($_SESSION['user_infos']);
+        $security_errors['security_alert'] = get_lang('SECURITY__LOGGED_OUT');
+        header('Location: /tpe/login');
     }
 } else {
-    $security_errors['nothing_in_session'] = 'Veuillez vous connecter pour accéder à cette page';
-    header('Location: /tpe/landing');
+    $security_errors['nothing_in_session'] = get_lang('SECURITY__PLEASE_CONNECT');
+    header('Location: /tpe/login');
 }
 $_SESSION['security_errors'] = $security_errors;
