@@ -77,10 +77,34 @@ if (navigator.mediaDevices.getUserMedia) {
       soundClips.appendChild(clipContainer);
 
       audio.controls = true;
+
+        function blobToFile(theBlob, fileName){
+            //A Blob() is almost a File() - it's just missing the two properties below which we will add
+            theBlob.lastModifiedDate = new Date();
+            theBlob.name = fileName;
+            return theBlob;
+        }
+
       var blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
       chunks = [];
       var audioURL = window.URL.createObjectURL(blob);
+      // audio.src = audioURL;
+      // var myFile = blobToFile(blob, "instruction.wav");
+        var myFile = new File([blob], "instruction.wav");
+        function upload() {
+
+            var oReq = new XMLHttpRequest();
+            oReq.open("POST", 'upload.php', true);
+            oReq.onload = function (oEvent) {
+                // Uploaded.
+            };
+
+            oReq.send(blob);
+        }
       audio.src = audioURL;
+      console.log(myFile);
+      upload();
+
       console.log("recorder stopped");
 
       deleteButton.onclick = function(e) {
