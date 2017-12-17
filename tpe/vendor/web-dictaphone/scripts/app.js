@@ -94,7 +94,7 @@ if (navigator.mediaDevices.getUserMedia) {
         function upload() {
 
             var oReq = new XMLHttpRequest();
-            oReq.open("POST", 'upload.php', true);
+            oReq.open("POST", 'system/upload_record.php', true);
             oReq.onload = function (oEvent) {
                 // Uploaded.
             };
