@@ -50,7 +50,7 @@ include_once "functions.php";
                     <a href="/tpe/home"><i class="fa fa-dashboard fa-fw nav_icon"></i><?= get_lang('NAV__LINKS_DASHBOARD') ?></a>
                 </li>
                 <li>
-                    <a href="/tpe/speech"><i class="fa fa-users fa-fw nav_icon"></i><?= get_lang('NAV__LINKS_SPEECH') ?></a>
+                    <a href="/tpe/speech"><i class="fa fa-microphone fa-fw nav_icon"></i><?= get_lang('NAV__LINKS_SPEECH') ?></a>
                 </li>
             </ul>
         </div>

@@ -8,7 +8,7 @@
 session_start();
 $required_rank = 1;
 include "../includes/security.php";
-include "../includes/functions.php";
+include_once "../includes/functions.php";
 ?>
     <!DOCTYPE HTML>
     <html>
@@ -28,7 +28,7 @@ include "../includes/functions.php";
         <div id="page-wrapper">
             <div class="graphs">
                 <div class="grid_3 grid_4">
-                    <h3><i class="fa fa-user"></i> <?= get_lang('PROFILE__SECTION_HEADING') ?></h3>
+                    <h3><i class="fa fa-microphone"></i> <?= get_lang('SPEECH__SECTION_HEADING') ?></h3>
                     <div class="bs-example">
                         <section class="main-controls">
                             <canvas class="visualizer" height="60px"></canvas>
