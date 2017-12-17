@@ -36,7 +36,7 @@ if($_FILES['img_file']['error'] == 0) {
         $new_path = "../data/profile_pictures/" . strtolower($_SESSION['user_infos']['username']) . "." . $file_ext;
         move_uploaded_file($file_tmp, $new_path);
         $upload_success = true;
-        $image = 'http://' . $_SERVER['HTTP_HOST'] . '/tpe/data/profile_pictures/' . strtolower($_SESSION['user_infos']['username']) . '.' . $file_ext;
+        $image = 'https://' . $_SERVER['HTTP_HOST'] . '/tpe/data/profile_pictures/' . strtolower($_SESSION['user_infos']['username']) . '.' . $file_ext;
 
         $db->exec('UPDATE users SET profile_pic = \'' . $image . '\' WHERE username = \'' . $_SESSION['user_infos']['username'] . '\'');
         $_SESSION['user_infos']['profile_pic'] = $image;
