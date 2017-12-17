@@ -8,6 +8,7 @@
 ?>
 <!-- Bootstrap Core JavaScript -->
 <script src="/tpe/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 <script>
     // Initialize Firebase
