@@ -8,7 +8,7 @@ session_start();
  */
 $required_rank = 1;
 include "../includes/security.php";
-include "../includes/functions.php";
+include_once "../includes/functions.php";
 require_once '../includes/database.php';
 $db = new \db\database();
 $get_user = 'SELECT * FROM users WHERE username = \'' . $_SESSION['user_infos']['username'] . '\'';

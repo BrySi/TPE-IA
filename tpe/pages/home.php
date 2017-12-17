@@ -8,7 +8,7 @@ session_start();
  */
 $required_rank = 1;
 include "../includes/security.php";
-include "../includes/functions.php";
+include_once "../includes/functions.php";
 ?>
 <!DOCTYPE HTML>
 <html>

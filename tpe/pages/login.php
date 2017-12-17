@@ -6,7 +6,7 @@ session_start();
  * Date: 17/11/2017
  * Time: 20:25
  */
-include '../includes/functions.php';
+include_once '../includes/functions.php';
 ?>
 <!DOCTYPE HTML>
 <html>
