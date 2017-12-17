@@ -52,5 +52,9 @@
   "PROFILE__FLASH__SUCCESS_UPDATE": "Successfully updated profile picture !",
   "AUDIO__UPLOAD_ERROR" : "An error occured while uploading the file",
   "SPEECH__TITLE" : "Speak",
-  "SPEECH__SECTION_HEADING": "I am listening to you"
+  "SPEECH__SECTION_HEADING": "I am listening to you",
+  "SPEECH__BUTTON_RECORD": "Record",
+  "SPEECH__BUTTON_STOP": "Stop",
+  "SPEECH__IS_LISTENING": "Talk now, I am listening !",
+  "SPEECH__IS_UPLOADING" : "Uploading..."
 }

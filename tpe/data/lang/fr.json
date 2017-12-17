@@ -52,5 +52,9 @@
   "PROFILE__FLASH__SUCCESS_UPDATE": "Photo de profil mise à jour !",
   "AUDIO__UPLOAD_ERROR" : "Une erreur est survenue lors de l'envoi du fichier",
   "SPEECH__TITLE": "Parlez",
-  "SPEECH__SECTION_HEADING": "Je suis à votre écoute"
+  "SPEECH__SECTION_HEADING": "Je suis à votre écoute",
+  "SPEECH__BUTTON_RECORD": "Enregistrer",
+  "SPEECH__BUTTON_STOP": "Stop",
+  "SPEECH__IS_LISTENING": "Je vous écoute, allez-y !",
+  "SPEECH__IS_UPLOADING" : "Envoi en cours..."
 }
