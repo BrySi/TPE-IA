@@ -26,6 +26,7 @@
   "SECURITY__PLEASE_CONNECT": "Please log in to access this page",
   "NAV__HEADING": "TPE IA",
   "NAV__LINKS_DASHBOARD": "Dashboard",
+  "NAV__LINKS_SPEECH": "Talk with us",
   "NAV__DROPDOWN_PROFILE": "Profile",
   "PROJECT__FOOTER": "Copyright &copy; YEAR Bryan SIMON & Thomas FABBRO. All rights reserved",
   "HOME__TITLE": "Dashboard",
@@ -49,5 +50,7 @@
   "PROFILE__FLASH_ERROR_EXTENSION": "Extension forbidden, please use JPEG, GIF or PNG.",
   "PROFILE__FLASH_UPLOAD_ERROR": "An error occured while uploading image file",
   "PROFILE__FLASH__SUCCESS_UPDATE": "Successfully updated profile picture !",
-  "AUDIO__UPLOAD_ERROR" : "An error occured while uploading the file"
+  "AUDIO__UPLOAD_ERROR" : "An error occured while uploading the file",
+  "SPEECH__TITLE" : "Speak",
+  "SPEECH__SECTION_HEADING": "I am listening to you"
 }

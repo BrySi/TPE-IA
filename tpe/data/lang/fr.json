@@ -26,6 +26,7 @@
   "SECURITY__PLEASE_CONNECT": "Veuillez vous connecter pour accéder à cette page",
   "NAV__HEADING": "TPE IA",
   "NAV__LINKS_DASHBOARD": "Tableau de bord",
+  "NAV__LINKS_SPEECH": "Que faire aujourd'hui ?",
   "NAV__DROPDOWN_PROFILE": "Mon profil",
   "PROJECT__FOOTER": "Copyright &copy; YEAR Bryan SIMON & Thomas FABBRO. Tous droits réservés",
   "HOME__TITLE": "Tableau de bord",
@@ -49,5 +50,7 @@
   "PROFILE__FLASH_ERROR_EXTENSION": "Extension interdite, merci d'utiliser un fichier JPEG, GIF ou PNG.",
   "PROFILE__FLASH_UPLOAD_ERROR": "Erreur lors de l'envoi de l'image",
   "PROFILE__FLASH__SUCCESS_UPDATE": "Photo de profil mise à jour !",
-  "AUDIO__UPLOAD_ERROR" : "Une erreur est survenue lors de l'envoi du fichier"
+  "AUDIO__UPLOAD_ERROR" : "Une erreur est survenue lors de l'envoi du fichier",
+  "SPEECH__TITLE": "Parlez",
+  "SPEECH__SECTION_HEADING": "Je suis à votre écoute"
 }
