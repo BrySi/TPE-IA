@@ -15,8 +15,8 @@ set_lang();
 
     <!-- Fonts -->
     <!-- Lato -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- CSS -->
 
@@ -27,6 +27,11 @@ set_lang();
     <link rel="stylesheet" href="css/main.css">
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript"> //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+    </script>
 </head>
 
 <body id="body">
@@ -133,6 +138,10 @@ Contact start
                 <div class="block">
                     <?= str_replace('YEAR', date('Y'), get_lang('LANDING__FOOTER')) ?>
                     <?= get_lang('LANDING__SWITCH_LANG') ?>
+                    <script language="JavaScript" type="text/javascript">
+                        TrustLogo("https://tpe.brysi.xyz/tpe/images/comodo_secure_seal_113x59_transp.png", "CL1", "none");
+                    </script>
+                    <a  href="https://www.positivessl.com/" id="comodoTL">Positive SSL</a>
                 </div>
             </div>
         </div>
@@ -157,4 +166,7 @@ Contact start
 
 
 
-<span class="_hsShareImage hsShareImage" style="display: none;">&nbsp;</span></body></html>
+<span class="_hsShareImage hsShareImage" style="display: none;">&nbsp;</span>
+
+</body>
+</html>
