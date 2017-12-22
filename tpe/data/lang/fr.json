@@ -30,6 +30,7 @@
   "REGISTER__FORM_PASSWORD": "Mot de passe",
   "REGISTER__FORM_PASSWORD_CONFIRM": "Confirmation du mot de passe",
   "REGISTER__FORM_SUBMIT": "Inscription",
+  "REGISTER__FORM_LINK_LOGIN": "J'ai déjà un compte. <a href=\"/tpe/login\">Connexion</a>",
   "SECURITY__UNAUTHORIZED_ACCESS" : "Vous n'avez pas un niveau d'accréditation assez élevé pour accéder à cette page.",
   "SECURITY__LOGGED_OUT": "Par souci de sécurité nous vous avons déconnecté, merci de vous reconnecter",
   "SECURITY__PLEASE_CONNECT": "Veuillez vous connecter pour accéder à cette page",

@@ -32,10 +32,7 @@ include_once '../includes/functions.php';
       <div class="g-recaptcha" data-sitekey="6LfGBT4UAAAAAInDy48EJyHoysucPuG8dRoaHsXf"></div>
       <button class="btn btn-lg btn-success1 btn-block margin-t-10" type="submit"><?= get_lang('REGISTER__FORM_SUBMIT') ?></button>
       <div class="registration">
-Already Registered.
-          <a class="" href="/tpe/login">
-    Login
-          </a>
+          <?= get_lang('REGISTER__FORM_LINK_LOGIN') ?>
       </div>
   </form>
    <div class="copy_layout login register">

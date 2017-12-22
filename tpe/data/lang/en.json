@@ -30,6 +30,7 @@
   "REGISTER__FORM_PASSWORD": "Password",
   "REGISTER__FORM_PASSWORD_CONFIRM": "Re-type Password",
   "REGISTER__FORM_SUBMIT": "Submit",
+  "REGISTER__FORM_LINK_LOGIN": "Already Registered. <a href=\"/tpe/login\">Login</a>",
   "SECURITY__UNAUTHORIZED_ACCESS" : "Your accreditation level is not high enough to access this page.",
   "SECURITY__LOGGED_OUT": "For security reasons, you were disconnected. Please reconnect.",
   "SECURITY__PLEASE_CONNECT": "Please log in to access this page",
