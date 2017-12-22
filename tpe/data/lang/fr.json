@@ -22,6 +22,7 @@
   "AUTH__FLASH__UNAUTHORIZED_METHOD": "Méthode non accordée",
   "AUTH__SWITCH_LANG": "<p>Wrong language ? <a class=\"color-white\" href=\"/tpe/system/lang_change.php?force=en\">Switch to English</a></p>",
   "REGISTER__TITLE": "Inscription",
+  "REGISTER__HEADING": "S'inscrire",
   "REGISTER__INSTRUCTION": "Veuillez saisir les détails de votre compte ci-dessous",
   "REGISTER__FORM_NAME": "Nom complet",
   "REGISTER__FORM_USERNAME": "Nom d'utilisateur",
