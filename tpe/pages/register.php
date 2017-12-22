@@ -22,7 +22,7 @@ include_once '../includes/functions.php';
     <a href="/"><img src="/tpe/images/logo.png" alt=""/></a>
   </div>
   <h2 class="form-heading"><?= get_lang('REGISTER__HEADING') ?></h2>
-  <form class="form-signin app-cam" action="/tpe/system/register.php">
+  <form class="form-signin app-cam" method="POST" action="/tpe/system/register.php">
       <p><?= get_lang('REGISTER__INSTRUCTION') ?></p>
       <input type="text" name="name" class="form-control1" placeholder="<?= get_lang('REGISTER__FORM_NAME') ?>" autofocus="">
       <input type="text" name="username" class="form-control1" placeholder="<?= get_lang('REGISTER__FORM_USERNAME') ?>" autofocus="">
